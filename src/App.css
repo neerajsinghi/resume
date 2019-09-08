@@ -1,0 +1,172 @@
+.header-color {
+  background: #2C7744;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #2C7744, #2C7744);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #2C7744, #2C7744); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display:sticky;
+  }
+ 
+  .landing-grid {
+    background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8pv8O6T1dL2witggGp3NiFjL9gZQY35CHNaKiFIwME9_ork0z') center / cover;
+
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .selected {
+    border-bottom: 2px solid #12c2e9;
+    background: #12c2e9;
+    font:30em
+  }
+  .headerSelected {
+    font-size:1.3em;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
+  .projects-grid {
+    font-family: 'Times New Roman, Times, serif';
+    display: flex;
+  }
+ 
+  .category-tabs hr {
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
+  }
+  
+  /* Resume Page css */
+  .resume-right-col {
+    background: #27221F;
+    color: white;
+    padding: 2em;
+  }
+  
+  /* contact page css */
+  .about-me-grid{
+    background: #536976;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    text-align: center;
+    
+
+  }
+  .about-me-grid h2{
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-weight: bolder;
+  }
+  .about-me-grid p{
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    text-align: justify;
+    padding-left: 25%;
+    width:50%;
+    font-size: x-large;
+
+  }
+
+  .about-me-grid hr {
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+  }
+
+  .contact-body {
+    margin: auto;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+  }
+  
+  .contact-grid {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background: white;
+    color: black;
+    margin-bottom: 20px;
+    
+  }
+  
+  
+  .contact-grid h2 {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-weight: bolder;
+  }
+  
+  .contact-grid p {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-weight: bold;
+  }
+  
+  .contact-grid hr {
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .contact-list i {
+    font-size: 66px;
+    padding-right: 5rem;
+  }
+  
+  
+  /* contact page css */
+  
+  .avatar-img {
+    height: 250px;
+    padding-top: 5em;
+  }
+  
+  .banner-text {
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+  }
+  
+  .banner-text h1 {
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .banner-text hr {
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .banner-text p {
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .social-links i {
+    color: white;
+    font-size: 5em;
+    padding: 8px;
+  }
